@@ -13,6 +13,8 @@ block content
       th Address
       th Number
       th Year Hired
+      th Work Experience
+      th Salary
       th Actions
     tbody
       each employee in employees
@@ -26,6 +28,8 @@ block content
             div= `${employee.city}, ${employee.state}, ${employee.zip}`
           td= employee.phonenumber
           td= employee.yearhired
+          td= employee.workexperience
+          td= employee.salary
           td
             div.actions
               a(href=`/update/${employee.id}`) Edit

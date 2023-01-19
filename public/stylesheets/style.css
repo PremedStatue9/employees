@@ -1,7 +1,8 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Times New Roman", Helvetica, Arial, sans-serif;
   background-color: #F3F4F6;
+  color: purple;
 }
 a {
   color: #00B7FF;
@@ -13,7 +14,8 @@ td {
   vertical-align: top;
   border-bottom: 1px solid #CCC;
   border-collapse: collapse;
-  color: #4B5563;
+  color: rgb(62, 0, 130);
+  background-color: #fcfab98c;
 }
 table {
   border-radius: 8px;
@@ -30,16 +32,16 @@ td:last-child,th:last-child {
 th{
   border-top: 1px solid #CCC;
   border-bottom: 1px solid #CCC;
-  background-color: #E5E7EB;
-  color: #374151;
+  background-color: #b0caff;
+  color: purple;
   padding: 8px 16px;
 }
 thead {
   background-color: #E5E7EB;
 }
 tr:nth-child(2n) td{
-  background-color: #E5E7EB;
-  color: #1F2937;
+  background-color: #fcfab98c;
+  color: rgb(62, 0, 130);
 }
 .tabletitle{
   display:flex;
@@ -105,7 +107,7 @@ tr:nth-child(2n) td{
 .employee-form label{
   display:block;
   font-weight:bold;
-  color: #71717A;
+  color: purple;
 }
 .employee-form input {
   padding: 4px 8px;
